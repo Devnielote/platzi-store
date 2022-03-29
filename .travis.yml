@@ -14,8 +14,8 @@ notifications: #Podemos activar notificaciones a varios correos, ya sean por eje
     recipients:
       - danielfc_26@hotmail.com
       - famfloresmtz.15@outlook.com
-      on_success: always # Se manda correo cuando se deploye bien.
-      on_failure: always # Y cuando no, también. 
+    on_success: always
+    on_failure: always
 deploy:
   provider: pages
   skip_cleanup: true
